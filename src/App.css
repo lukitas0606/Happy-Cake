@@ -1,0 +1,86 @@
+body{
+  font-family: 'Playpen Sans', cursive;
+  background-color: white;
+  color: black;
+  display: block !important;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  background-color: #dc3545;
+  padding: 1rem;
+  margin-top: 0;
+  padding-left: 3rem;
+}
+.link{
+  color: white;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.link:hover{
+  color: black;
+}
+.link2{
+margin-left: 68rem;
+color: white;
+display: flex;
+gap: 7px;
+align-items: center;
+}
+.link2:hover{
+  color: black;
+}
+.home-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p{
+  font-weight: 300;
+  font-size: larger;
+  margin-top: 3rem;
+}
+h1{
+  font-weight: 300;
+  margin-top: 4rem;
+}
+strong{
+  cursor: pointer;
+  font-weight: 600;
+}
+.container-contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input1{
+  width: 1100px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 12px;
+  font-family: 'Playpen Sans', cursive;
+  font-weight: 500;
+  font-size: large;
+}
+textarea{
+  width: 1100px;
+  height: 130px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-family: 'Playpen Sans', cursive;
+  font-weight: 500;
+  font-size: large;
+}
+button{
+  margin-top: 3rem;
+}
+img{
+  margin-top: 2rem;
+}
